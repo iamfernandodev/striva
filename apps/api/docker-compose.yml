@@ -1,0 +1,10 @@
+services:
+    postgress:
+        image: postgres:17
+        container_name: striva-test
+        environment:
+            POSTGRES_DB: test
+            POSTGRES_USER: docker
+            POSTGRES_PASSWORD: docker
+        ports:
+            - '5432:5432'

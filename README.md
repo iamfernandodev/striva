@@ -16,9 +16,9 @@ security, and scalability.
 ### Backend
 - Runtime: [Bun](https://bun.com/)
 - Framework: [Elysia](https://elysiajs.com/) ([TypeScript](https://www.typescriptlang.org/))
-- Database: [PostgreSQL](https://www.postgresql.org/) via [Supabase](https://supabase.com/)
-- Auth: [JWT](https://www.jwt.io/introduction#what-is-json-web-token-structure) + [Supabase Auth](https://supabase.com/docs/guides/auth)
-- Validation: [TypeBox](https://elysiajs.com/patterns/typebox)
+- Database: [PostgreSQL](https://www.postgresql.org/)
+- Auth: [Better-Auth](https://better-auth.com/)
+- Validation: [Zod](https://zod.dev/)
 
 ### Frontend
 - Framework: [React](https://react.dev/) ([TypeScript](https://www.typescriptlang.org/))
